@@ -23,7 +23,21 @@ The pipeline should have a flag for human or mouse proteins
 
 
 
+![](overview_flowchart.png)
+
+
 ### Milestone ###
 
+|                    |                                                                            |                                                                            |                                                                            |
+|--------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+|                    | Adriana                                                                    | Maryann                                                                    | Abdullah                                                                   |
+| March 14 (Week 9)  | Complete design doc                                                        | Complete design doc                                                        | Help with design doc                                                       |
+|                    | Meet with Dr. Kekenes-Huskey to retrieve sample data                       | Meet with Dr. Kekenes-Huskey to retrieve sample data                       | Meet with Dr. Kekenes-Huskey to retrieve sample data                       |
+| March 21 (Week 10) | Using receptor list create list in python and parse it into the STRING API | Using receptor list create list in python and parse it into the STRING API | Test code                                                                  |
+| March 28 (Week 11) | Use the .SIF files to get information about the nodes                      | Test code                                                                  | Using the receptor nodes find the antagonists                              |
+| April 4 (Week 12)  | Parse the output from String                                               | Using the antagonists found make sure they are not repetitive              | Test code                                                                  |
+| April 11 (Week 13) | Test code                                                                  | Using the receptor nodes find the antagonists                              | Using receptor list create list in python and parse it into the STRING API |
+| April 18 (Week 14) | Debug                                                                      | Test code                                                                  | Debug                                                                      |
+| April 25 (Week 15) | Test code                                                                  | Create final presentation                                                  | Create final presentation                                                  |
+|                    |
 
-![](overview_flowchart.png)
