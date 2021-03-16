@@ -21,7 +21,7 @@ The pipeline should have a flag for human or mouse proteins
   
 ### Proposed solution ###
  
- Use API : https://string-db.org/help/api/ 
+ STRING API : https://string-db.org/help/api/ 
 
 <img src="https://github.com/aene1/StringDatabase/blob/main/overview_flowchart.png" width="614" height="2232">
 
