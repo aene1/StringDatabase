@@ -25,3 +25,5 @@ The pipeline should have a flag for human or mouse proteins
 
 ### Milestone ###
 
+
+![](overview_flowchart.png)
