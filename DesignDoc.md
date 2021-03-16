@@ -5,7 +5,7 @@
 
 ### Overview ###
 
-  The Kekenes-Huskey Lab has a pipeline called “PathwayAnalysis”. Our project is to integrate another step in the already existing pipeline. The goal of this project is to build a pipeline that takes as an input a list of receptors and outputs the activators and the downstream targets found within the STRING database. 
+  The Kekenes-Huskey(PKH) Lab focuses on cell and molecular biophysics. Projects within the lab focus on has a pipeline called “PathwayAnalysis”. Our project is to integrate another step in the already existing pipeline. The goal of this project is to build a pipeline that takes as an input a list of receptors and outputs the activators and the downstream targets found within the STRING database. 
   
 ### Context ###
 
