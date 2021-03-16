@@ -5,7 +5,7 @@
 
 ### Overview ###
 
-  The Kekenes-Huskey(PKH) Lab focuses on cell and molecular biophysics. Projects within the lab focus on has a pipeline called “PathwayAnalysis”. Our project is to integrate another step in the already existing pipeline. The goal of this project is to build a pipeline that takes as an input a list of receptors and outputs the activators and the downstream targets found within the STRING database. 
+  Dr. Peter Kekenes-Huskey’s (PKH) Lab focuses on cell and molecular biophysics, which include focusing on signaling molecules and pathways between proteins. The PKH Lab has a pipeline called “PathwayAnalysis”, which takes in a list of nodes and provides information on other connections that that node may have. The purpose of our STRING database project is to integrate another step in the already existing pipeline in order that will allow additional analyses to be made in linking the receptors to gene up/down regulation. The goal of this project is to build a pipeline that takes as an input a list of receptors and outputs the activators and the downstream targets found within the STRING database. The biological goal of this project is to curate a signal transduction pathway network describing a transmembrane receptor (™) dependent on activation of gene regulation. Our code should help the already active mechanism to find the “shortest path” analysis to link transmembrane receptors and to find a downstream target that is not another receptor.
   
 ### Context ###
 
