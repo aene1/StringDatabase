@@ -25,9 +25,6 @@ The pipeline should have a flag for human or mouse proteins
 
 <img src="https://github.com/aene1/StringDatabase/blob/main/overview_flowchart.png" width="614" height="2232">
 
-![](overview_flowchart.png)
-
-
 ### Milestone ###
 
 |                    |                                                                            |                                                                            |                                                                            |
