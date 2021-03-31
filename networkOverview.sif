@@ -115,6 +115,8 @@ IKBKE	up-regulates	IRF3
 IKBKE	up-regulates	NfKb-p65/p50
 TBK1	up-regulates	IKBKE
 NfKb-p65/p50	up-regulates	M1_polarization
+NLRP3	up-regulates	M1_polarization
+P2X7	up-regulates	NLRP3
 IFNGR1	up-regulates	JAK2
 IFNGR2	up-regulates	JAK2
 IFNG	down-regulates	NfKb-p65/p50
@@ -174,5 +176,14 @@ Gbg	up-regulates	PLCB
 Gaq	up-regulates	PLCB
 Gai	up-regulates	Gbg
 P2Y1	up-regulates	Gaq
+CASP-1	up-regulates	M1_polarization
+IL1B	up-regulates	M1_polarization
+NLRP3	up-regulates	CASP-1
+CASP-1	up-regulates	IL1B
+NfKb-p65/p50	up-regulates	NLRP3
+NFKBIA	down-regulates	NfKb-p65/p50
+ARRB2	up-regulates	NFKBIA
+FFAR2	up-regulates	ARRB2
 FFAR2	up-regulates	Gai
 FFAR2	up-regulates	Gaq
+FFAR3	up-regulates	Gai
