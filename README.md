@@ -1,6 +1,6 @@
 # StringDatabase
 
-Dependencies 
+Dependencies (run on command line): 
 
 python3 -m pip install requests
 
