@@ -13,7 +13,7 @@ Dependencies:
 Python request module: run "python3 -m pip install requests" on command line
 
 
-Files:
+Main Files:
 
 -main_code.py: main pipeline that pulls requests from STRING API
 
