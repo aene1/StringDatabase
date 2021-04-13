@@ -25,18 +25,19 @@ request_url = "/".join([string_api_url, output_format, method])
 results = requests.post(request_url, data=params)
 
 # Read and parse the results (write to outfile)
+prev_line = ''
 for line in results.text.strip().split("\n"):
-    l = line.split("\t")
-    outfile.write(str(l) + '\n')
-    #print(len(l))
-    # print(l)
-    # input_identifier, string_identifier = l[0], l[2]
-    # print("Input:", input_identifier, "STRING:", string_identifier, sep="\t")
+    if line != prev_line:
+        l = line.split("\t")
+        outfile.write(str(l) + '\n')
+        # input_identifier, string_identifier = l[0], l[2]
+        # print("Input:", input_identifier, "STRING:", string_identifier, sep="\t")
+    prev_line = line
 outfile.close()
 
 # read in networkOverview.sif as a dictionary
 ## key=node1, value=list of connections to node1
-sif_file = open('networkOverview.sif', 'r')
+sif_file = open('networkOverview.sif.txt', 'r')
 sif_dict = {}
 for line in sif_file: #for each line in file, extract the nodes
     line_list = line.strip().split('\t')
