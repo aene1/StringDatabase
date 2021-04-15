@@ -60,14 +60,6 @@ for line in sif_file: #for each line in file, extract the nodes
 print(len(string_dict.keys()))
 print(len(sif_dict.keys()))
 
-# for key,value in string_dict.items():
-#     if key not in sif_dict.items(): #check if key is in value
-#         print(key)
-#     # for i in value:
-#     #     if i not in sif_dict.items():
-#     #         print(i)
-
-
 string_output_file = open('STRING_edge_list.txt','w')
 results_output_file = open("STRING-PHK_edge_list.txt",'w')
 string_set = set()
