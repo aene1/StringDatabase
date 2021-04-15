@@ -57,9 +57,6 @@ for line in sif_file: #for each line in file, extract the nodes
     else: #if node1 doesn't exist as key, create new entry and a list containing node2 as the value
         sif_dict[node1] = [node2]
 
-print(len(string_dict.keys()))
-print(len(sif_dict.keys()))
-
 string_output_file = open('STRING_edge_list.txt','w')
 results_output_file = open("STRING-PHK_edge_list.txt",'w')
 string_set = set()
