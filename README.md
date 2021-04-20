@@ -15,7 +15,7 @@ Python request module: run "python3 -m pip install requests" on command line
 
 Main Files:
 
--main_code.py: main pipeline that pulls requests from STRING API
+-STRING_pipeline_script.py: main pipeline that pulls requests from STRING API
 
 -networkOverview.sif: overview file of networks already discovered by PKH lab (read into main_code.py as dictionary)
 
