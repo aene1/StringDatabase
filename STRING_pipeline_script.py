@@ -68,14 +68,14 @@ for key in string_dict:
     for i in string_dict[key]:
         string_set.add((key, i))
 
-#create edge list in a set form for PHK database retrieval
+#create edge list in a set form for PKH database retrieval
 for key in sif_dict:
     # iterate through set
     for i in sif_dict[key]:
         sif_set.add((key, i))
 
 
-#results = string database - PHK database
+#results = string database - PKH database
 results = string_set-sif_set
 
 #write out to files
