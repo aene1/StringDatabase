@@ -94,6 +94,6 @@ for i in string_set:
     string_output_file.write(str(i[0]) + ',' + str(i[1])+ '\n')
 
 
-for i in string_set:
+for i in results:
     results_output_file.write(str(i[0]) + ',' + str(i[1])+ '\n')
 
