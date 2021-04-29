@@ -57,17 +57,6 @@ for line in sif_file: #for each line in file, extract the nodes
     else: #if node1 doesn't exist as key, create new entry and a list containing node2 as the value
         sif_dict[node1] = [node2]
 
-print(len(string_dict.keys()))
-print(len(sif_dict.keys()))
-
-# for key,value in string_dict.items():
-#     if key not in sif_dict.items(): #check if key is in value
-#         print(key)
-#     # for i in value:
-#     #     if i not in sif_dict.items():
-#     #         print(i)
-
-
 string_output_file = open('STRING_edge_list.txt','w')
 results_output_file = open("STRING-PHK_edge_list.txt",'w')
 string_set = set()
@@ -79,14 +68,14 @@ for key in string_dict:
     for i in string_dict[key]:
         string_set.add((key, i))
 
-#create edge list in a set form for PHK database retrieval
+#create edge list in a set form for PKH database retrieval
 for key in sif_dict:
     # iterate through set
     for i in sif_dict[key]:
         sif_set.add((key, i))
 
 
-#results = string database - PHK database
+#results = string database - PKH database
 results = string_set-sif_set
 
 #write out to files
