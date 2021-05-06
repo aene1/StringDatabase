@@ -51,3 +51,4 @@ Python request module:
 3. python3 STRING_pipeline.script.py
 
 *NOTE: Another option would be to download the files and run within your preferred Python environment
+ * Ensure all files are located within the same directory to run script
