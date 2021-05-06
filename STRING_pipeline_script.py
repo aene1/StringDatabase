@@ -86,6 +86,6 @@ for i in string_set:
 for i in results:
     results_output_file.write(str(i[0]) + ',' + str(i[1])+ '\n')
 
-print("Number of pairs from STRING: "+len(string_set))
-print("Number of pairs from existing database: "+len(sif_set))
-print("Number of new pairs found by STRING: " + len(results))
+print("Number of pairs from STRING: " + str(len(string_set)))
+print("Number of pairs from existing database: " + str(len(sif_set)))
+print("Number of new pairs found by STRING: " + str(len(results)))
