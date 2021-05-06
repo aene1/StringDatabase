@@ -46,11 +46,11 @@ Python request module:
 
 # Running the script via command line
 
-1. run the following command: 'git clone https://github.com/aene1/StringDatabase'
+1. run the following command: `git clone https://github.com/aene1/StringDatabase`
 
 2. change the input files in the STRING_pipeline.script.py with the deisred input files and the desired output naming of the file, or just run it with the provided test data
 
-3. run the following command: 'python3 STRING_pipeline.script.py'
+3. run the following command: `python3 STRING_pipeline.script.py`
 
 *NOTE: Another option would be to download the files and run within your preferred Python environment
  * Ensure all files are located within the same directory to run script
