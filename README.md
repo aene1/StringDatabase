@@ -46,6 +46,8 @@ Python request module:
 
 1. git clone https://github.com/aene1/StringDatabase
 
-2. python3 STRING_pipeline.script.py
+2. change the input files in the STRING_pipeline.script.py with the deisred input files and the desired output naming of the file, or just run it with the provided test data
+
+3. python3 STRING_pipeline.script.py
 
 *NOTE: Another option would be to download the files and run given your chosen Python environment
