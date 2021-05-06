@@ -38,9 +38,9 @@ Python request module:
 
 # Output files:
 
-* STRING_edge_list.txt: list of new network outputs
+* STRING_edge_list.txt: parsed list of new network outputs
 
-* STRING-PHK_edge_list.txt: list of network new network outputs in addition to PKH network connections that have been implemented in network overview
+* STRING-PHK_edge_list.txt: combined list of network new network outputs with the PKH network connections that have been implemented in network overview
 
 # Running the script via command line
 
