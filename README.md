@@ -12,30 +12,31 @@ The Kekenes-Huskey lab focuses on computational approaches for understanding how
 
 # Software required:
 
--Python3
+* Python3
 
 # Dependencies:
 
 Python request module: 
 
--Run the following on the command line: python3 -m pip install requests
+* Run the following on the command line: python3 -m pip install requests
 
 
 # Script:
 
--STRING_pipeline_script.py: main pipeline that pulls requests from STRING API
+* STRING_pipeline_script.py: main pipeline that pulls requests from STRING API
 
 # Input data:
 
--networkOverview.sif: overview file of networks already discovered by PKH lab (read into main_code.py as dictionary)
+-networkOverview.sif: overview file of networks already discovered by PKH lab 
+read into main_code.py as dictionary)
 
 -receptorList.txt: list of test receptors provided by the PKH Lab
 
 # Output files:
 
--STRING_edge_list.txt: list of new network outputs
+* STRING_edge_list.txt: list of new network outputs
 
--STRING-PHK_edge_list.txt: list of network new network outputs in addition to PKH network connections that have been implemented in network overview
+* STRING-PHK_edge_list.txt: list of network new network outputs in addition to PKH network connections that have been implemented in network overview
 
 # Running the script via command line
 
@@ -43,4 +44,4 @@ Python request module:
 
 2. python3 STRING_pipeline.script.py
 
--Another option would be to download the files and run given your chosen Python environment
+*NOTE: Another option would be to download the files and run given your chosen Python environment
