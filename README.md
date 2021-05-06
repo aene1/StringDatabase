@@ -32,8 +32,9 @@ Python request module:
 
 * STRING_pipeline_script.py: main pipeline
    * Submits a request to the STRING API for each target receptor
-   * STRING API allows various methods that we can change that will give different outputs
-    * Chosen method for our script: network
+   * STRING API allows various methods based on the interaction one is looking for
+    * Examples of STRING API methods: interaction partners, functional enrichment, protein similarity scores, etc.
+    * Chosen method for our script: interaction network in order to obtain connections of the target proteins from our receptorList.txt
 
 # Output files:
 
