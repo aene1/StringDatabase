@@ -40,17 +40,17 @@ Python request module:
 
 * network_output-RAW.txt: raw data retrieved from STRING using the "network" method and the list of input receptor proteins
 
-* STRING_edge_list.txt: parsed list of new network outputs
+* STRING_edge_list.txt: an edge list of protein network edges (connections) found via STRING
 
-* STRING-PHK_edge_list.txt: combined list of network new network outputs with the PKH network connections that have been implemented in network overview
+* STRING-PHK_edge_list.txt: a combined edge list of old edges (already documented by PKH in networkOverview.sif) and new edges (found on STRING), showing only the new information found via STRING
 
 # Running the script via command line
 
-1. git clone https://github.com/aene1/StringDatabase
+1. run the following command: 'git clone https://github.com/aene1/StringDatabase'
 
 2. change the input files in the STRING_pipeline.script.py with the deisred input files and the desired output naming of the file, or just run it with the provided test data
 
-3. python3 STRING_pipeline.script.py
+3. run the following command: 'python3 STRING_pipeline.script.py'
 
 *NOTE: Another option would be to download the files and run within your preferred Python environment
  * Ensure all files are located within the same directory to run script
