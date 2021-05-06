@@ -3,7 +3,7 @@
 
 By: Abdullah Mazher, Adriana Ene, and Maryann Choy
 
-[Link to Github] (https://github.com/aene1/StringDatabase)
+[Link to Github](https://github.com/aene1/StringDatabase)
 
 # Overview:
 
