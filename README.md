@@ -18,7 +18,7 @@ Dr. Peter Kekenes-Huskey (PKH)'s lab focuses on computational approaches for und
 
 Python request module: 
 
-* Run the following on the command line: python3 -m pip install requests
+* Run the following on the command line: `python3 -m pip install requests`
 
 # Input data:
 
