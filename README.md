@@ -50,4 +50,4 @@ Python request module:
 
 3. python3 STRING_pipeline.script.py
 
-*NOTE: Another option would be to download the files and run given your chosen Python environment
+*NOTE: Another option would be to download the files and run within your preferred Python environment
