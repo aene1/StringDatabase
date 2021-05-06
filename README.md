@@ -23,6 +23,7 @@ Python request module:
 # Input data:
 
 * receptorList.txt: list of test receptors provided by the PKH Lab
+   * Receptors used provided by PKH Lab found [here](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/receptorlist.txt) (second column of that file was ommited). 
 
 * [networkOverview.sif](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/NetworkOverView.sif): overview file of networks already discovered by PKH lab read into STRING_pipeline_script.py as dictionary)
    
