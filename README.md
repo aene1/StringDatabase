@@ -20,19 +20,16 @@ Python request module:
 
 * Run the following on the command line: python3 -m pip install requests
 
-
-# Script:
-
-* STRING_pipeline_script.py: main pipeline that pulls requests from STRING API
-
 # Input data:
 
-* [networkOverview.sif](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/NetworkOverView.sif): 
-    * overview file of networks already discovered by PKH lab 
-read into STRING_pipeline_script.py as dictionary)
+* receptorList.txt: list of test receptors provided by the PKH Lab
 
-* receptorList.txt: 
-    * list of test receptors provided by the PKH Lab
+* [networkOverview.sif](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/NetworkOverView.sif): overview file of networks already discovered by PKH lab read into STRING_pipeline_script.py as dictionary)
+   
+# Script:
+
+* STRING_pipeline_script.py: main pipeline
+   * Submits a request to the STRING API for each target receptor
 
 # Output files:
 
