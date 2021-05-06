@@ -22,7 +22,7 @@ Python request module:
 
 # Input data:
 
-* receptorList.txt: list of test receptors provided by the PKH Lab
+* receptorList.txt: list of target receptors for which we are looking for network connections for
    * Receptors used provided by PKH Lab found [here](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/receptorlist.txt) (second column of that file was ommited). 
 
 * [networkOverview.sif](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/NetworkOverView.sif): overview file of networks already discovered by PKH lab 
@@ -32,6 +32,8 @@ Python request module:
 
 * STRING_pipeline_script.py: main pipeline
    * Submits a request to the STRING API for each target receptor
+   * STRING API allows various methods that we can change that will give different outputs
+    * Chosen method for our script: network
 
 # Output files:
 
