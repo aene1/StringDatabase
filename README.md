@@ -38,6 +38,8 @@ Python request module:
 
 # Output files:
 
+* network_output-RAW.txt: raw data retrieved from STRING using the "network" method and the list of input receptor proteins
+
 * STRING_edge_list.txt: parsed list of new network outputs
 
 * STRING-PHK_edge_list.txt: combined list of network new network outputs with the PKH network connections that have been implemented in network overview
