@@ -1,4 +1,8 @@
-# STRING Database
+# STRING Database 
+ ![image](https://user-images.githubusercontent.com/69886501/117343733-33937400-ae6a-11eb-9081-40a8c75bb77e.png)
+
+By: Abdullah Mazher, Adriana Ene, and Maryann Choy
+
 # Overview:
 
 
