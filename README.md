@@ -5,18 +5,20 @@ By: Abdullah Mazher, Adriana Ene, and Maryann Choy
 
 [Link to Github](https://github.com/aene1/StringDatabase)
 
-# Overview:
+# Project Overview:
 
 
-The Kekenes-Huskey lab focuses on computational approaches for understanding how heart and immune cells work. The lab particularly focuses on networks between proteins based on cellular pathways. The main pipeline of the STRING_pipeline_script.py file will help query the STRING database to find new edges between proteins in addition to the connections they have already discovered (seen in networkOverview.sif). The goal is to enrich their network with protein-protein interaction data from online databases.
+The Kekenes-Huskey lab focuses on computational approaches for understanding how heart and immune cells work. The lab particularly focuses on networks between proteins based on cellular pathways.The main pipeline of the STRING_pipeline_script.py code will help query the STRING database to find new edges between proteins in addition to the connections they have already discovered (seen in networkOverview.sif). The goal is to enrich their network with protein-protein interaction data from online databases. 
 
 # Software required:
 
 -Python3
 
-Dependencies:
+# Dependencies:
 
-Python request module: run "python3 -m pip install requests" on command line
+Python request module: 
+
+-Run the following on the command line: python3 -m pip install requests
 
 
 # Script:
@@ -35,8 +37,10 @@ Python request module: run "python3 -m pip install requests" on command line
 
 -STRING-PHK_edge_list.txt: list of network new network outputs in addition to PKH network connections that have been implemented in network overview
 
-# How to run at command line:
+# Running the script via command line
 
 1. git clone https://github.com/aene1/StringDatabase
 
 2. python3 STRING_pipeline.script.py
+
+-Another option would be to download the files and run given your chosen Python environment
