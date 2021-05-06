@@ -27,10 +27,12 @@ Python request module:
 
 # Input data:
 
--networkOverview.sif: overview file of networks already discovered by PKH lab 
-read into main_code.py as dictionary)
+* [networkOverview.sif](https://bitbucket.org/pkhlab/pathwayanalysis/src/master/NetworkOverView.sif): 
+    * overview file of networks already discovered by PKH lab 
+read into STRING_pipeline_script.py as dictionary)
 
--receptorList.txt: list of test receptors provided by the PKH Lab
+* receptorList.txt: 
+    * list of test receptors provided by the PKH Lab
 
 # Output files:
 
